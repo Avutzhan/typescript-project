@@ -34,3 +34,24 @@ enum Size {
 }
 
 let sizeName: number = Size.Small;
+
+//Any dont use everytime because all benefits of typescript will be removed
+let whatever: any = 'afsdfsadfsadf';
+//can be any type and will not create error
+whatever = true
+
+//void
+let sing = (): void => {
+    console.log('lalalalal')
+}
+
+//with return
+let sing2 = (): string => {
+    console.log('lalalalal')
+    return 'lalalal';
+}
+
+//never function doesnt return and doesnt have end point
+let error = () => {
+    throw Error('opps')
+}

@@ -27,3 +27,20 @@ var Size;
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
 var sizeName = Size.Small;
+//Any dont use everytime because all benefits of typescript will be removed
+var whatever = 'afsdfsadfsadf';
+//can be any type and will not create error
+whatever = true;
+//void
+var sing = function () {
+    console.log('lalalalal');
+};
+//with return
+var sing2 = function () {
+    console.log('lalalalal');
+    return 'lalalal';
+};
+//never function doesnt return and doesnt have end point
+var error = function () {
+    throw Error('opps');
+};
