@@ -55,3 +55,19 @@ let sing2 = (): string => {
 let error = () => {
     throw Error('opps')
 }
+
+//interface
+interface RobotArmy {
+    count: number,
+    type: string,
+    magic: string
+}
+
+//this better code style
+let fightRobotArmy = (robots: RobotArmy) => {
+    console.log('test')
+}
+
+let fightRobotArmy2 = (robots: { count: string, type: string, magic: string }) => {
+    console.log('test')
+}

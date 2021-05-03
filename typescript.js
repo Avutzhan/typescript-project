@@ -44,3 +44,10 @@ var sing2 = function () {
 var error = function () {
     throw Error('opps');
 };
+//this better code style
+var fightRobotArmy = function (robots) {
+    console.log('test');
+};
+var fightRobotArmy2 = function (robots) {
+    console.log('test');
+};
