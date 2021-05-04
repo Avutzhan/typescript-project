@@ -60,14 +60,15 @@ let error = () => {
 interface RobotArmy {
     count: number,
     type: string,
-    magic: string
+    magic?: string //optional
 }
 
 //this better code style
 let fightRobotArmy = (robots: RobotArmy) => {
     console.log('test')
 }
-
 let fightRobotArmy2 = (robots: { count: string, type: string, magic: string }) => {
     console.log('test')
 }
+
+fightRobotArmy({ count: 1, type: 'dragon'})
