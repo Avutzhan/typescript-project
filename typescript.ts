@@ -72,3 +72,28 @@ let fightRobotArmy2 = (robots: { count: string, type: string, magic: string }) =
 }
 
 fightRobotArmy({ count: 1, type: 'dragon'})
+
+let fightRobotArmy3 = (robots: { count: string, type: string, magic: string }): void => {
+    console.log('test')
+}
+
+let fightRobotArmy4 = (robots: { count: string, type: string, magic: string }): number => {
+    console.log('test')
+    return 5
+}
+
+//classes
+class  Animal {
+    public sing: string = 'lalalalalalla'
+
+    constructor(sound: string) {
+        this.sing = sound;
+    }
+
+    greet(): string {
+        return `Hello ${this.sing}`
+    }
+}
+
+let lion = new Animal('Raaar')
+console.log(lion.greet())
