@@ -97,3 +97,7 @@ class  Animal {
 
 let lion = new Animal('Raaar')
 console.log(lion.greet())
+
+//union = or first or second type
+let confused: string | number = "hello"
+

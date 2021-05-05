@@ -72,3 +72,5 @@ var Animal = /** @class */ (function () {
 }());
 var lion = new Animal('Raaar');
 console.log(lion.greet());
+//union = or first or second type
+var confused = "hello";
