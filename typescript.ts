@@ -99,5 +99,7 @@ let lion = new Animal('Raaar')
 console.log(lion.greet())
 
 //union = or first or second type
-let confused: string | number = "hello"
+let confused: string | number | boolean = "hello"
 
+let x: number = 4
+// x = 'hello'

@@ -74,3 +74,5 @@ var lion = new Animal('Raaar');
 console.log(lion.greet());
 //union = or first or second type
 var confused = "hello";
+var x = 4;
+// x = 'hello'
